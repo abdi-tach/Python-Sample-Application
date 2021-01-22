@@ -32,7 +32,7 @@ def generate_oauth_service():
 
 
 def generate_ride_headers(token):
-    """Generate the header object that is used to make api requests."""
+    ""Generate the header object that is used to make api requests."""
     return {
         'Authorization': 'bearer %s' % token,
         'Content-Type': 'application/json',
